@@ -7,4 +7,4 @@ Repositório destinado à apresentação das notas da disciplina _Introdução �
 
 Para ver o resultado final, acesse:
 
-[:link: https://icaro-freire.github.io/2020.1_notas_simplex/](https://icaro-freire.github.io/2020.1_notas_simplex/)
+[:link: https://icaro-freire.github.io/2020.1_notas_estat/](https://icaro-freire.github.io/2020.1_notas_estat/)

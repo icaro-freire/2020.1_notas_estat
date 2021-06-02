@@ -15,4 +15,4 @@ Este _site_  é destinado à apresentação das notas da disciplina **Introduç�
 
 Para ver o repositório desse site, acesse:
 
-[ `r emo::ji("link")` https://github.com/icaro-freire/2020.1_notas_simplex](https://github.com/icaro-freire/2020.1_notas_simplex)
+[ `r emo::ji("link")` https://github.com/icaro-freire/2020.1_notas_estat](https://github.com/icaro-freire/2020.1_notas_estat)
