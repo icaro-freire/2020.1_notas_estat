@@ -1,0 +1,40 @@
+---
+title: "Introdução à Estatística"
+description: |
+  Pequeno relatório das notas `r emo::ji("wink")`
+site: distill::distill_website
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+library(tidyverse)
+library(DT)
+library(plotly)
+
+```
+
+## Sobre a Média
+
+Pessoal, fizemos *Lições* ($N_{_\mathrm{L}}$), *Atividades Avaliativas* (cuja média denotaremos por $N_{_\mathrm{AV}}$), *Provas* (cuja média denotaremos por $N_{_\mathrm{P}}$) e *Pontos Extras* (se houver mais de um, será a média entre eles, denotada por $P_{_\mathrm{Ext}}$).
+
+A média final da disciplina ($M_{_\mathcal{D}}$) é calculada com a seguinte fórmula:
+\[
+  M_{_\mathcal{D}} = \frac{3 \cdot N_{_\mathrm{L}} + 3 \cdot  N_{_\mathrm{AV}}  + 4\cdot N_{_\mathrm{P}} }{100} + P_{_\mathrm{Ext}}
+\]
+
+Obviamente, a nota máxima alcançada não pode ultrapassar os 10 pontos.
+
+## Notas
+
+A tabela abaixo mostra o resumo até agora.
+Qualquer discrepância deve ser comunicada imediatamente, visto que tais notas serão postas no [SIGAA](https://sistemas.ufrb.edu.br/sigaa/verTelaLogin.do) em breve (no Sábado, provamelmente).
+
+ <i class="fa fa-exclamation-triangle" aria-hidden="true"></i> Caso necessário, movimente a *barra de rolagem* horizontal até que você veja a *nota*. 
+ Além disso, você pode digitar sua matrícula para individualizar sua análise.
+
+## Análises Estatísticas
+
+Em breve!

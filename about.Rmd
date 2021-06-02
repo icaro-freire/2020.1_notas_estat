@@ -1,0 +1,18 @@
+---
+title: "Sobre este site"
+description: |
+  Pequena descrição
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Este _site_  é destinado à apresentação das notas da disciplina **Introdução à Estatística** do semestre remoto de 2020.1, do [Centro de Formação de Professores][CFP] da [Universidade Federal do Recôncavo da Bahia][UFRB].
+
+[CFP]: https://www.ufrb.edu.br/cfp/
+[UFRB]: https://www.ufrb.edu.br/portal/
+
+Para ver o repositório desse site, acesse:
+
+[ `r emo::ji("link")` https://github.com/icaro-freire/2020.1_notas_simplex](https://github.com/icaro-freire/2020.1_notas_simplex)

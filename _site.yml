@@ -1,0 +1,17 @@
+name: "."
+title: "Estat 2020.1"
+description: |
+  Estat 2020.1
+output_dir: "docs"
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "Sobre"
+      href: about.html
+    - icon: fab fa-github
+      href: https://github.com/icaro-freire/2020.1_notas_simplex
+output:
+  distill::distill_article:
+    toc: true
+

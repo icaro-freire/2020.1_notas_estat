@@ -1,0 +1,21 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "Sobre este site",
+      "description": "Pequena descrição",
+      "author": [],
+      "contents": "\r\nEste site é destinado à apresentação das notas da disciplina Introdução à Estatística do semestre remoto de 2020.1, do Centro de Formação de Professores da Universidade Federal do Recôncavo da Bahia.\r\nPara ver o repositório desse site, acesse:\r\n🔗 https://github.com/icaro-freire/2020.1_notas_simplex\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-06-02T17:01:34-03:00"
+    },
+    {
+      "path": "index.html",
+      "title": "Introdução à Estatística",
+      "description": "Pequeno relatório das notas `r emo::ji(\"wink\")`\n",
+      "author": [],
+      "contents": "\r\n\r\nContents\r\nSobre a Média\r\nNotas\r\nAnálises Estatísticas\r\n\r\nSobre a Média\r\nPessoal, fizemos Lições (\\(N_{_\\mathrm{L}}\\)), Atividades Avaliativas (cuja média denotaremos por \\(N_{_\\mathrm{AV}}\\)), Provas (cuja média denotaremos por \\(N_{_\\mathrm{P}}\\)) e Pontos Extras (se houver mais de um, será a média entre eles, denotada por \\(P_{_\\mathrm{Ext}}\\)).\r\nA média final da disciplina (\\(M_{_\\mathcal{D}}\\)) é calculada com a seguinte fórmula: \\[\r\n  M_{_\\mathcal{D}} = \\frac{3 \\cdot N_{_\\mathrm{L}} + 3 \\cdot  N_{_\\mathrm{AV}}  + 4\\cdot N_{_\\mathrm{P}} }{100} + P_{_\\mathrm{Ext}}\r\n\\]\r\nObviamente, a nota máxima alcançada não pode ultrapassar os 10 pontos.\r\nNotas\r\nA tabela abaixo mostra o resumo até agora. Qualquer discrepância deve ser comunicada imediatamente, visto que tais notas serão postas no SIGAA em breve (no Sábado, provamelmente).\r\n Caso necessário, movimente a barra de rolagem horizontal até que você veja a nota. Além disso, você pode digitar sua matrícula para individualizar sua análise.\r\nAnálises Estatísticas\r\nEm breve!\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-06-02T17:00:04-03:00"
+    }
+  ],
+  "collections": []
+}
