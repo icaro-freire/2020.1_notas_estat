@@ -14,6 +14,13 @@ library(tidyverse)
 library(DT)
 library(plotly)
 
+nota_estat <- read_csv(
+  "dados/nota_estat.csv", 
+  col_types = cols(
+    matricula = col_character()
+  )
+)
+
 ```
 
 ## Sobre a Média
@@ -34,6 +41,17 @@ Qualquer discrepância deve ser comunicada imediatamente, visto que tais notas s
 
  <i class="fa fa-exclamation-triangle" aria-hidden="true"></i> Caso necessário, movimente a *barra de rolagem* horizontal até que você veja a *nota*. 
  Além disso, você pode digitar sua matrícula para individualizar sua análise.
+ 
+```{r}
+# TABELA FINAL ----------------------------------------------------------------
+nota_estat %>% 
+  datatable(
+    caption = 'Resultado Final', 
+    options = list(scrollX = TRUE)
+)
+
+```
+ 
 
 ## Análises Estatísticas
 
